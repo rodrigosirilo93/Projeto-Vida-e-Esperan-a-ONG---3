@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vida e Esperança</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Vida e Esperança</h1>
+    <nav>
+      <ul>
+        <li><a href="#" data-pagina="home">Início</a></li>
+        <li><a href="#" data-pagina="sobre">Sobre</a></li>
+        <li><a href="#" data-pagina="projetos">Projetos</a></li>
+        <li><a href="#" data-pagina="contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="pagina ativa">
+      <h2>Bem-vindo à ONG Vida e Esperança</h2>
+      <p>Nossa missão é transformar vidas através do apoio social, educação e solidariedade.</p>
+    </section>
+
+    <section id="sobre" class="pagina">
+      <h2>Sobre Nós</h2>
+      <p>A ONG Vida e Esperança atua em diversas comunidades promovendo projetos sociais e de inclusão.</p>
+    </section>
+
+    <section id="projetos" class="pagina">
+      <h2>Projetos Atuais</h2>
+      <div id="lista-projetos"></div>
+    </section>
+
+    <section id="contato" class="pagina">
+      <h2>Fale Conosco</h2>
+      <form id="form-contato">
+        <label>Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required />
+        <label>E-mail:</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail" required />
+        <label>Mensagem:</label>
+        <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Vida e Esperança - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/spa.js"></script>
+  <script src="js/validacao.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
